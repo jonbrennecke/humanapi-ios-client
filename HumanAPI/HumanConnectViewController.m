@@ -65,9 +65,9 @@ CGFloat NavbarHeight = 54;
                                CGRectMake(0, 0, ScreenWidth, NavbarHeight)];
     navbar.backgroundColor = [UIColor whiteColor];
     UINavigationItem *navItem = [[UINavigationItem alloc] init];
-    navItem.title = @"Human API";
+    navItem.title = @"Sync Devices";
     UIBarButtonItem * doneButton = [[UIBarButtonItem alloc]
-                                    initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
+                                    initWithBarButtonSystemItem:UIBarButtonSystemItemDone
                                     target:self
                                     action:@selector(onClickCancel)];
     navItem.rightBarButtonItem = doneButton;
