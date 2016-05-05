@@ -262,6 +262,7 @@ CGFloat NavbarHeight = 54;
     }
     NSLog(@"found humanId=%@, sessionToken=%@", humanId, sessionToken);
     
+    [self dismiss];
     [self fireConnectSuccessWithSessionToken:sessionToken andHumanId:humanId];
 }
 
